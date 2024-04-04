@@ -1,15 +1,18 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import Footer from "../components/footer";
+import Home from "../components/home";
 
-export default function Home() {
+export default function HomePage() {
   return (
     <main className={styles.main}>
+      <Home />
       <div className={styles.description}>
         <p>
           Get started by editing&nbsp;
           <code className={styles.code}>app/page.tsx</code>
         </p>
-        <div>
+        {/* <div>
           <a
             href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
             target="_blank"
@@ -25,7 +28,7 @@ export default function Home() {
               priority
             />
           </a>
-        </div>
+        </div> */}
       </div>
 
       <div className={styles.center}>
@@ -90,6 +93,7 @@ export default function Home() {
           </p>
         </a>
       </div>
+      <Footer />
     </main>
   );
 }

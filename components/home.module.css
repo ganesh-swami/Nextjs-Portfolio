@@ -1,0 +1,17 @@
+
+.homeback {
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(90deg, #7e22ce 0%, #5b21b6 70%);
+}
+.homeback svg {
+    position: absolute;
+    z-index: 1;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    overflow: hidden;
+    height: 100%;
+    pointer-events: none;
+    fill: #2e1065;
+}
