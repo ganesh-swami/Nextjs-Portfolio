@@ -9,6 +9,7 @@ import WorkspacesIcon from "@mui/icons-material/Workspaces";
 import ChatIcon from "@mui/icons-material/Chat";
 import BadgeIcon from "@mui/icons-material/Badge";
 import { Box, Paper } from "@mui/material";
+import styles from "./home.module.css";
 
 export default function MainBottomNavigation() {
   const [value, setValue] = React.useState("recents");
@@ -19,44 +20,40 @@ export default function MainBottomNavigation() {
 
   return (
     <Box>
-      <Paper
-        sx={{
-          position: "fixed",
-          bottom: "2rem",
-          left: "50%",
-          "-webkit-transform": "translateX(-50%)",
-          transform: "translateX(-50%);",
-        }}
-        elevation={3}
-      >
+      <Paper className={styles.mainBottomNavigation} elevation={3}>
         <BottomNavigation
-          //sx={{ width: 500 }}
+          sx={{ backgroundColor: "#2e1065", borderRadius: "2rem" }}
           value={value}
           onChange={handleChange}
         >
           <BottomNavigationAction
             label="Home"
             value="Home"
+            className={styles.bottomNavigationAction}
             icon={<VerifiedUserIcon />}
           />
           <BottomNavigationAction
             label="Tech"
             value="Tech"
+            className={styles.bottomNavigationAction}
             icon={<LayersIcon />}
           />
           <BottomNavigationAction
             label="Project"
             value="Project"
+            className={styles.bottomNavigationAction}
             icon={<WorkspacesIcon />}
           />
           <BottomNavigationAction
             label="About"
             value="About"
+            className={styles.bottomNavigationAction}
             icon={<BadgeIcon />}
           />
           <BottomNavigationAction
             label="Contact"
             value="Contact"
+            className={styles.bottomNavigationAction}
             icon={<ChatIcon />}
           />
         </BottomNavigation>
