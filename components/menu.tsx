@@ -9,7 +9,7 @@ import WorkspacesIcon from "@mui/icons-material/Workspaces";
 import ChatIcon from "@mui/icons-material/Chat";
 import BadgeIcon from "@mui/icons-material/Badge";
 import { Box, Paper } from "@mui/material";
-import styles from "./home.module.css";
+import styles from "../app/page.module.css";
 
 export default function MainBottomNavigation() {
   const [value, setValue] = React.useState("recents");
@@ -19,7 +19,7 @@ export default function MainBottomNavigation() {
   };
 
   return (
-    <Box>
+    <Box className="z-20">
       <Paper className={styles.mainBottomNavigation} elevation={3}>
         <BottomNavigation
           sx={{ backgroundColor: "#2e1065", borderRadius: "2rem" }}
@@ -29,31 +29,33 @@ export default function MainBottomNavigation() {
           <BottomNavigationAction
             label="Home"
             value="Home"
-            className={styles.bottomNavigationAction}
+            className={
+              "!text-white !min-w-14 md:!min-w-16 !text-xs md:!text-base"
+            }
             icon={<VerifiedUserIcon />}
           />
           <BottomNavigationAction
             label="Tech"
             value="Tech"
-            className={styles.bottomNavigationAction}
+            className="!text-white !min-w-14 md:!min-w-16 !text-xs md:!text-base"
             icon={<LayersIcon />}
           />
           <BottomNavigationAction
             label="Project"
             value="Project"
-            className={styles.bottomNavigationAction}
+            className="!text-white !min-w-14 md:!min-w-16 !text-xs md:!text-base"
             icon={<WorkspacesIcon />}
           />
           <BottomNavigationAction
             label="About"
             value="About"
-            className={styles.bottomNavigationAction}
+            className="!text-white !min-w-14 md:!min-w-16 !text-xs md:!text-base"
             icon={<BadgeIcon />}
           />
           <BottomNavigationAction
             label="Contact"
             value="Contact"
-            className={styles.bottomNavigationAction}
+            className="!text-white !min-w-14 md:!min-w-16 !text-xs md:!text-base"
             icon={<ChatIcon />}
           />
         </BottomNavigation>

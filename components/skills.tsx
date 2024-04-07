@@ -37,7 +37,7 @@ export default function Skills() {
   ];
 
   return (
-    <Grid container xs={12} id="skill" className="justify-center py-4">
+    <Grid container xs={12} id="skill" className="justify-center pt-4 pb-20">
       <Grid className="max-w-screen-xl w-full justify-start px-3">
         <Stack
           direction="row"

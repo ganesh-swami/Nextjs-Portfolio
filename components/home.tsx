@@ -1,7 +1,7 @@
 "use client";
 import Grid from "@mui/material/Grid";
 import { TypeAnimation } from "react-type-animation";
-import styles from "./home.module.css";
+import styles from "../app/page.module.css";
 import Image from "next/image";
 import MouseIcon from "@mui/icons-material/Mouse";
 import Button from "@mui/material/Button";
@@ -62,13 +62,13 @@ export default function Home() {
                 variant="contained"
                 color="secondary"
                 endIcon={<MouseIcon />}
-                className="mt-12 md:mt-6 flex items-center gap-1 hover:gap-3 rounded-full bg-gradient-to-r from-pink-500 to-violet-600 px-3 md:px-8 py-3 md:py-4 text-center text-xs md:text-sm font-medium uppercase tracking-wider text-white no-underline transition-all duration-200 ease-out hover:text-white md:font-semibold"
+                className="mt-12 md:mt-6 flex items-center gap-1 hover:gap-3 rounded-full bg-gradient-to-r from-pink-500 to-violet-600 px-3 md:px-8 py-3 md:py-4 text-center text-xs md:text-sm font-medium uppercase tracking-wider text-white transition-all duration-200 ease-out hover:text-white md:font-semibold invisible md:visible"
                 onClick={handleScroll}
               >
                 Scroll Down
               </Button>
             </div>
-            <div className="items-center justify-center">
+            <div className="flex items-center justify-center">
               <Image
                 src="/img/ganesh-ai-image.webp"
                 alt="Ganesh Swami web developer"

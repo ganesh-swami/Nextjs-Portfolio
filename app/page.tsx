@@ -5,6 +5,7 @@ import Home from "../components/home";
 import Skills from "@/components/skills";
 import AboutMe from "@/components/about";
 import Projects from "@/components/projects";
+import Contact from "@/components/contact";
 
 export default function HomePage() {
   return (
@@ -14,6 +15,7 @@ export default function HomePage() {
       <Skills />
       <AboutMe />
       <Projects />
+      <Contact />
       {/* <Footer /> */}
     </main>
   );

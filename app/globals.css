@@ -16,6 +16,8 @@
   --text-primary-color:#fff;
   --text-secondary-color:#393a3c;
   --p-color:#717275;
+  --bg-1-color:#7e22ce;
+  --bg-2-color:#5b21b6;
   --max-width: 1100px;
   --border-radius: 12px;
   --font-mono: ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono",
@@ -95,6 +97,9 @@
   .left-heading {
     @apply text-left px-2 text-2xl font-bold border-l-8 rounded-md;
   }
+  .left-heading-sm {
+    @apply text-left px-2 text-xl font-bold border-l-4 rounded-md mb-3 border-pink-500 text-slate-200;
+  }
   .borderTechBox{
     @apply border-solid border border-slate-300 size-20 md:size-24 rounded-md flex flex-col justify-center items-center ml-0
   }
@@ -142,11 +147,15 @@ a {
 .h1-tag:after  {
   content: "</h1>";
 }
-.button-tag:before {
-  content: "<h2>";
+.p-tag:before {
+  font-size: 1.25rem;
+  margin-top: 1.5rem;
+  content: "<p>";
 }
-.button-tag:after  {
-  content: "</h2>";
+.p-tag:after  {
+  font-size: 1.25rem;
+  margin-left: 1.5rem;
+  content: "</p>";
 }
 
 
@@ -162,7 +171,7 @@ a {
 }
 
 .p-color{
-  color:var(---p-color);
+  color:var(--p-color);
 }
 .s-color{
   color: var(--text-secondary-color);
