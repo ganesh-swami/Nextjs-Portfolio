@@ -87,7 +87,7 @@ export default function Contact() {
                     <a className="text-gray-500">
                       <svg
                         fill="currentColor"
-                        stroke-linecap="round"
+                        strokeLinecap="round"
                         stroke-linejoin="round"
                         stroke-width="2"
                         className="w-5 h-5"
@@ -99,7 +99,7 @@ export default function Contact() {
                     <a className="ml-4 text-gray-500">
                       <svg
                         fill="currentColor"
-                        stroke-linecap="round"
+                        strokeLinecap="round"
                         stroke-linejoin="round"
                         stroke-width="2"
                         className="w-5 h-5"
@@ -112,7 +112,7 @@ export default function Contact() {
                       <svg
                         fill="none"
                         stroke="currentColor"
-                        stroke-linecap="round"
+                        strokeLinecap="round"
                         stroke-linejoin="round"
                         stroke-width="2"
                         className="w-5 h-5"
@@ -132,7 +132,7 @@ export default function Contact() {
                     <a className="ml-4 text-gray-500" href="#">
                       <svg
                         fill="currentColor"
-                        stroke-linecap="round"
+                        strokeLinecap="round"
                         stroke-linejoin="round"
                         stroke-width="2"
                         className="w-5 h-5"
