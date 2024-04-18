@@ -36,7 +36,14 @@ export default function Projects() {
               <h2 className="text-3xl font-semibold text-gray-900 dark:text-white">
                 Video Confrencing
               </h2>
-              <p className="text-md mt-4">Project details</p>
+              <p className="text-md mt-4">
+                This browser based video confrencing app have features like
+                Audio, Video, Polls, LiveStreaming, Whiteboard, Breakout Room,
+                RealTime Chat, different layout. I have worked on WebRtc Related
+                audio and video streaming and authentication & authorization,
+                Kurento and mediasoup integration, Optimization to handle 2x
+                users with same resources.
+              </p>
             </div>
           </div>
           <div className="xl:w-[80%] sm:w-[85%] xs:w-[90%] mx-auto flex md:flex-row xs:flex-col lg:gap-4 xs:gap-2 justify-center lg:items-stretch md:items-center mt-6">
