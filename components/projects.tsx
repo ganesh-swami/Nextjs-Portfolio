@@ -36,14 +36,7 @@ export default function Projects() {
               <h2 className="text-3xl font-semibold text-gray-900 dark:text-white">
                 Video Confrencing
               </h2>
-              <p className="text-md mt-4">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Tempore placeat assumenda nam veritatis, magni doloremque
-                pariatur quos fugit ipsa id voluptatibus deleniti officiis cum
-                ratione eligendi sed necessitatibus aliquam error laborum
-                delectus quaerat. Delectus hic error eligendi sed repellat natus
-                fuga nobis tempora possimus ullam!
-              </p>
+              <p className="text-md mt-4">Project details</p>
             </div>
           </div>
           <div className="xl:w-[80%] sm:w-[85%] xs:w-[90%] mx-auto flex md:flex-row xs:flex-col lg:gap-4 xs:gap-2 justify-center lg:items-stretch md:items-center mt-6">
