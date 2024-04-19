@@ -22,14 +22,14 @@ export default function Projects() {
           </Box>
         </Stack>
         <Box className="w-full mx-auto">
-          <div className="xl:w-[80%] sm:w-[85%] xs:w-[90%] mx-auto flex md:flex-row xs:flex-col lg:gap-4 xs:gap-2 justify-center lg:items-stretch md:items-center mt-4">
+          <div className="xl:w-[80%] sm:w-[85%] xs:w-[90%] mx-auto flex md:flex-row xs:flex-col lg:gap-4 xs:gap-2 justify-center lg:items-stretch md:items-center mt-8 mb-8">
             <div className="lg:w-[50%] xs:w-full">
               <Image
-                src={"/img/Video-Confrencing.png"}
+                src={"/img/Video-Confrencing-WebRTC.png"}
                 className="lg:rounded-t-lg sm:rounded-sm xs:rounded-sm"
                 alt="Video confrencing project"
                 width={500}
-                height={500}
+                height={350}
               />
             </div>
             <div className="lg:w-[50%] sm:w-full xs:w-full bg-gray-100 dark:bg-gray-900 dark:text-gray-400 md:p-4 xs:p-0 rounded-md">
@@ -46,7 +46,7 @@ export default function Projects() {
               </p>
             </div>
           </div>
-          <div className="xl:w-[80%] sm:w-[85%] xs:w-[90%] mx-auto flex md:flex-row xs:flex-col lg:gap-4 xs:gap-2 justify-center lg:items-stretch md:items-center mt-6">
+          <div className="xl:w-[80%] sm:w-[85%] xs:w-[90%] mx-auto flex md:flex-row xs:flex-col lg:gap-4 xs:gap-2 justify-center lg:items-stretch md:items-center mt-8 mb-8">
             <div className="md:hidden sm:block xs:block xs:w-full">
               <Image
                 className="lg:rounded-t-lg sm:rounded-sm xs:rounded-sm"
@@ -66,14 +66,130 @@ export default function Projects() {
                 MeteorJS, JavaScript, TypeScript, WebRTC,CSS & Saas, MongoDB,
                 MySQL and Redis etc. Main Purpose of this project was to teach
                 the students in realtime with the functionality like
-                screensharing, audio, Video and some user student interection
-                features.
+                screensharing, audio, Video, WhiteBoard, Polls, Que & Ans and
+                some other student interection features.
               </p>
             </div>
             <div className="md:block sm:hidden xs:hidden lg:w-[50%] xs:w-full">
               <Image
                 className="lg:rounded-t-lg xs:rounded-sm"
                 src="/img/online-classes-min.webp"
+                alt="Online teaching classes"
+                width={500}
+                height={500}
+              />
+            </div>
+          </div>
+          <div className="xl:w-[80%] sm:w-[85%] xs:w-[90%] mx-auto flex md:flex-row xs:flex-col lg:gap-4 xs:gap-2 justify-center lg:items-stretch md:items-center mt-8 mb-8">
+            <div className="lg:w-[50%] xs:w-full">
+              <Image
+                src={"/img/ecommerce-ReactJS.png"}
+                className="lg:rounded-t-lg sm:rounded-sm xs:rounded-sm"
+                alt="Video confrencing project"
+                width={500}
+                height={500}
+              />
+            </div>
+            <div className="lg:w-[50%] sm:w-full xs:w-full bg-gray-100 dark:bg-gray-900 dark:text-gray-400 md:p-4 xs:p-0 rounded-md">
+              <h2 className="text-3xl font-semibold text-gray-900 dark:text-white">
+                Ecommerce
+              </h2>
+              <p className="text-md mt-4">
+                Ecommerce plateform Development using NextJS, NodeJs, ReactJS,
+                TypeScript, MongoDB, RazorPAY payment and Admin Panel to add or
+                update the listed products. Features includes like products,
+                variants, pages & categories, review, order, cart, upsell,
+                profile, order tracking and cancellation. Implemented caching
+                using redis db for most visited products and pages.
+              </p>
+            </div>
+          </div>
+          <div className="xl:w-[80%] sm:w-[85%] xs:w-[90%] mx-auto flex md:flex-row xs:flex-col lg:gap-4 xs:gap-2 justify-center lg:items-stretch md:items-center mt-8 mb-8">
+            <div className="md:hidden sm:block xs:block xs:w-full">
+              <Image
+                className="lg:rounded-t-lg sm:rounded-sm xs:rounded-sm"
+                src="/img/Node-React-Social-Media.png"
+                alt="ReactJS Ecommerce Project"
+                width={500}
+                height={500}
+              />
+            </div>
+            <div className="lg:w-[50%] xs:w-full bg-gray-100 dark:bg-gray-900 dark:text-gray-400 md:p-4 xs:p-0 rounded-md">
+              <h2 className="text-3xl font-semibold text-gray-900 dark:text-white">
+                Gammers Social Media
+              </h2>
+
+              <p className="text-md mt-4">
+                Being the co-founder of social media i have worked on every
+                aspect of the project including project architecture, Marketing,
+                Privacy Policy, Security and UI/UX consideration. It uses
+                NodeJS, ReactJS, JavaScript, BootStrap, MongoDB, MySQL, Redis,
+                Socket.io and Git etc. Features include freinds, following,
+                content sharing, swipe like, groups, chats, communities etc
+              </p>
+            </div>
+            <div className="md:block sm:hidden xs:hidden lg:w-[50%] xs:w-full">
+              <Image
+                className="lg:rounded-t-lg xs:rounded-sm"
+                src="/img/Node-React-Social-Media.png"
+                alt="Online teaching classes"
+                width={500}
+                height={500}
+              />
+            </div>
+          </div>
+          <div className="xl:w-[80%] sm:w-[85%] xs:w-[90%] mx-auto flex md:flex-row xs:flex-col lg:gap-4 xs:gap-2 justify-center lg:items-stretch md:items-center mt-8 mb-8">
+            <div className="lg:w-[50%] xs:w-full">
+              <Image
+                src={"/img/WebRTC - Meetings.png"}
+                className="lg:rounded-t-lg sm:rounded-sm xs:rounded-sm"
+                alt="Video confrencing project"
+                width={500}
+                height={500}
+              />
+            </div>
+            <div className="lg:w-[50%] sm:w-full xs:w-full bg-gray-100 dark:bg-gray-900 dark:text-gray-400 md:p-4 xs:p-0 rounded-md">
+              <h2 className="text-3xl font-semibold text-gray-900 dark:text-white">
+                Ecommerce
+              </h2>
+              <p className="text-md mt-4">
+                Ecommerce plateform Development using NextJS, NodeJs, ReactJS,
+                TypeScript, MongoDB, RazorPAY payment and Admin Panel to add or
+                update the listed products. Features includes like products,
+                variants, pages & categories, review, order, cart, upsell,
+                profile, order tracking and cancellation. Implemented caching
+                using redis db for most visited products and pages.
+              </p>
+            </div>
+          </div>
+          <div className="xl:w-[80%] sm:w-[85%] xs:w-[90%] mx-auto flex md:flex-row xs:flex-col lg:gap-4 xs:gap-2 justify-center lg:items-stretch md:items-center mt-8 mb-8">
+            <div className="md:hidden sm:block xs:block xs:w-full">
+              <Image
+                className="lg:rounded-t-lg sm:rounded-sm xs:rounded-sm"
+                src="/img/topical.webp"
+                alt="ReactJS Ecommerce Project"
+                width={500}
+                height={500}
+              />
+            </div>
+            <div className="lg:w-[50%] xs:w-full bg-gray-100 dark:bg-gray-900 dark:text-gray-400 md:p-4 xs:p-0 rounded-md">
+              <h2 className="text-3xl font-semibold text-gray-900 dark:text-white">
+                Gammers Social Media
+              </h2>
+
+              <p className="text-md mt-4">
+                Being the co-founder of social media i have worked on every
+                aspect of the project including project architecture, Marketing,
+                Privacy Policy, Security and UI/UX consideration. It uses
+                NodeJS, ReactJS, JavaScript, BootStrap, MongoDB, MySQL, Redis,
+                Socket.io and Git etc. Features include freinds, following,
+                content sharing, swipe like, groups, chats, communities etc
+              </p>
+            </div>
+            <div className="md:block sm:hidden xs:hidden lg:w-[50%] xs:w-full">
+              <Image
+                className="lg:rounded-t-lg xs:rounded-sm"
+                src="/img/topical.webp"
                 alt="Online teaching classes"
                 width={500}
                 height={500}
