@@ -29,7 +29,7 @@ export default function Skills() {
     "WebRtc",
     "Socket",
     "Git",
-    "NPM",
+    "Npm",
     "Auth0",
     "AWS",
     "Azure",
