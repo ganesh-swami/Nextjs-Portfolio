@@ -90,7 +90,7 @@ export default function Contact() {
                   <span className="inline-flex">
                     <a className="text-gray-500">
                       <Image
-                        src={"Github.svg"}
+                        src={"faceheart.svg"}
                         alt={"Github Profile"}
                         className="size-6 md:size-8"
                         width={24}
@@ -113,17 +113,19 @@ export default function Contact() {
             </div>
           </div>
           <div className="container px-1 py-24 mx-auto">
-            <div className="p-2 w-full pt-8 mt-8 text-center">
+            <div className="p-2 flex w-full pt-8 mt-8 text-center">
               Made With{" "}
               <Image
                 src={"faceheart.svg"}
                 alt={"Made with love"}
                 className="size-6 md:size-8"
-                width={24}
-                height={24}
-              />
+                width={16}
+                height={16}
+              />{" "}
               , Developed and maintained by{" "}
-              <a href="https://avinyaweb.com">avinyaweb</a>
+              <a href="https://avinyaweb.com" className="text-blue">
+                avinyaweb
+              </a>
             </div>
           </div>
         </div>
