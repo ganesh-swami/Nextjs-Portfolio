@@ -150,7 +150,7 @@ export default function Projects() {
             </div>
             <div className="lg:w-[50%] sm:w-full xs:w-full bg-gray-100 dark:bg-gray-900 dark:text-gray-400 md:p-4 xs:p-0 rounded-md">
               <h2 className="text-3xl font-semibold text-gray-900 dark:text-white">
-                New Project
+                Ecommerce
               </h2>
               <p className="text-md mt-4">
                 Ecommerce plateform Development using NextJS, NodeJs, ReactJS,
