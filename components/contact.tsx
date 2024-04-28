@@ -92,7 +92,7 @@ export default function Contact() {
                   <span className="inline-flex">
                     <a className="text-gray-500">
                       <Image
-                        src={"faceheart.svg"}
+                        src={"Github.svg"}
                         alt={"Github Profile"}
                         className="size-6 md:size-8"
                         width={24}
@@ -124,7 +124,7 @@ export default function Contact() {
                 width={12}
                 height={12}
               />
-              {"  "}, Developed and maintained by{" "}
+              {"  "}, Developed and maintained by{"  "}
               <a href="https://avinyaweb.com" className="text-blue">
                 avinyaweb
               </a>
