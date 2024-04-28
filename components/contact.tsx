@@ -83,14 +83,11 @@ export default function Contact() {
                 <div className="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
                   <a className="text-indigo-500">info@avinyaweb.com</a>
                   <br></br>
-                  <a
-                    href="https://github.com/ganesh-swami"
-                    className="text-indigo-500"
-                  >
-                    github
-                  </a>
-                  <span className="inline-flex">
-                    <a className="text-gray-500">
+                  <span className="inline-flex mt-2">
+                    <a
+                      href="https://github.com/ganesh-swami"
+                      className="text-gray-500"
+                    >
                       <Image
                         src={"Github.svg"}
                         alt={"Github Profile"}
