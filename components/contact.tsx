@@ -119,10 +119,10 @@ export default function Contact() {
                 src={"faceheart.svg"}
                 alt={"Made with love"}
                 className="size-6 md:size-8"
-                width={16}
-                height={16}
-              />{" "}
-              , Developed and maintained by{" "}
+                width={12}
+                height={12}
+              />
+              {"  "}, Developed and maintained by{" "}
               <a href="https://avinyaweb.com" className="text-blue">
                 avinyaweb
               </a>
