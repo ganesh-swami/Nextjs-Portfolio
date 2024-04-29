@@ -117,7 +117,7 @@ export default function Contact() {
               <Image
                 src={"faceheart.svg"}
                 alt={"Made with love"}
-                className="size-6 md:size-8"
+                className="size-4 md:size-4"
                 width={12}
                 height={12}
               />
