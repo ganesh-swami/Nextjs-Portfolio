@@ -113,15 +113,14 @@ export default function Contact() {
           </div>
           <div className="container px-1 py-24 mx-auto">
             <div className="p-2 flex w-full pt-8 mt-8 text-center">
-              Made With{" "}
+              Made With {"  "}
               <Image
                 src={"faceheart.svg"}
                 alt={"Made with love"}
-                className="size-4 md:size-4"
                 width={12}
                 height={12}
               />
-              {"  "}, Developed and maintained by{"  "}
+              {"   "}, Developed and maintained by {"  "}
               <a href="https://avinyaweb.com" className="text-blue">
                 avinyaweb
               </a>
