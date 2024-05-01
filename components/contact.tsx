@@ -117,11 +117,12 @@ export default function Contact() {
               <Image
                 src={"faceheart.svg"}
                 alt={"Made with love"}
+                className="pl-1"
                 width={12}
                 height={12}
               />
-              {"   "}, Developed and maintained by {"  "}
-              <a href="https://avinyaweb.com" className="text-blue">
+              {"   "}, Developed and maintained by me at {"  "}
+              <a href="https://avinyaweb.com" className="text-blue pl-1">
                 avinyaweb
               </a>
             </div>
