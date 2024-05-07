@@ -118,8 +118,8 @@ export default function Contact() {
                 src={"faceheart.svg"}
                 alt={"Made with love"}
                 className="pl-1"
-                width={12}
-                height={12}
+                width={16}
+                height={16}
               />
               {"   "}, Developed and maintained by me at {"  "}
               <a href="https://avinyaweb.com" className="text-blue pl-1">
