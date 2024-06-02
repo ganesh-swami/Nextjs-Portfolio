@@ -22,17 +22,17 @@ export default function Projects() {
           </Box>
         </Stack>
         <Box className="w-full mx-auto">
-          <div className="xl:w-[80%] sm:w-[85%] xs:w-[90%] mx-auto flex md:flex-row xs:flex-col lg:gap-4 xs:gap-2 justify-center lg:items-stretch md:items-center mt-8 mb-8">
-            <div className="lg:w-[50%] xs:w-full">
+          <div className="xl:w-[80%] md:w-[85%] mx-auto flex flex-col md:flex-row lg:gap-4 xs:gap-2 justify-center lg:items-stretch md:items-center mt-8 mb-8">
+            <div className="w-full md:w-[50%]">
               <Image
                 src={"/img/Video-Confrencing-WebRTC.png"}
-                className="lg:rounded-t-lg sm:rounded-sm xs:rounded-sm"
+                className="w-full rounded-sm lg:rounded-t-lg"
                 alt="Video confrencing project"
                 width={500}
                 height={350}
               />
             </div>
-            <div className="lg:w-[50%] sm:w-full xs:w-full bg-gray-100 dark:bg-gray-900 dark:text-gray-400 md:p-4 xs:p-0 rounded-md">
+            <div className="w-full md:w-[50%] bg-gray-100 dark:bg-gray-900 dark:text-gray-400 px-2 py-4 md:p-4 rounded-md">
               <h2 className="text-3xl font-semibold text-gray-900 dark:text-white">
                 Video Confrencing
               </h2>
@@ -46,8 +46,8 @@ export default function Projects() {
               </p>
             </div>
           </div>
-          <div className="xl:w-[80%] sm:w-[85%] xs:w-[90%] mx-auto flex md:flex-row xs:flex-col lg:gap-4 xs:gap-2 justify-center lg:items-stretch md:items-center mt-8 mb-8">
-            <div className="md:hidden sm:block xs:block xs:w-full">
+          <div className="xl:w-[80%] md:w-[85%] mx-auto flex flex-col md:flex-row-reverse lg:gap-4 xs:gap-2 justify-center lg:items-stretch md:items-center mt-8 mb-8">
+            <div className="w-full md:w-[50%]">
               <Image
                 className="lg:rounded-t-lg sm:rounded-sm xs:rounded-sm"
                 src="/img/online-classes-min.webp"
@@ -56,7 +56,7 @@ export default function Projects() {
                 height={500}
               />
             </div>
-            <div className="lg:w-[50%] xs:w-full bg-gray-100 dark:bg-gray-900 dark:text-gray-400 md:p-4 xs:p-0 rounded-md">
+            <div className="w-full md:w-[50%] bg-gray-100 dark:bg-gray-900 dark:text-gray-400 px-2 py-4 md:p-4 rounded-md">
               <h2 className="text-3xl font-semibold text-gray-900 dark:text-white">
                 Virtual Teaching
               </h2>
@@ -70,18 +70,9 @@ export default function Projects() {
                 some other student interection features.
               </p>
             </div>
-            <div className="md:block sm:hidden xs:hidden lg:w-[50%] xs:w-full">
-              <Image
-                className="lg:rounded-t-lg xs:rounded-sm"
-                src="/img/online-classes-min.webp"
-                alt="Online teaching classes"
-                width={500}
-                height={500}
-              />
-            </div>
           </div>
-          <div className="xl:w-[80%] sm:w-[85%] xs:w-[90%] mx-auto flex md:flex-row xs:flex-col lg:gap-4 xs:gap-2 justify-center lg:items-stretch md:items-center mt-8 mb-8">
-            <div className="lg:w-[50%] xs:w-full">
+          <div className="xl:w-[80%] md:w-[85%] mx-auto flex flex-col md:flex-row lg:gap-4 xs:gap-2 justify-center lg:items-stretch md:items-center mt-8 mb-8">
+            <div className="w-full md:w-[50%]">
               <Image
                 src={"/img/ecommerce-ReactJS.png"}
                 className="lg:rounded-t-lg sm:rounded-sm xs:rounded-sm"
@@ -90,7 +81,7 @@ export default function Projects() {
                 height={500}
               />
             </div>
-            <div className="lg:w-[50%] sm:w-full xs:w-full bg-gray-100 dark:bg-gray-900 dark:text-gray-400 md:p-4 xs:p-0 rounded-md">
+            <div className="lg:w-[50%] sm:w-full xs:w-full bg-gray-100 dark:bg-gray-900 dark:text-gray-400 px-2 py-4 md:p-4 rounded-md">
               <h2 className="text-3xl font-semibold text-gray-900 dark:text-white">
                 Ecommerce
               </h2>
@@ -104,17 +95,17 @@ export default function Projects() {
               </p>
             </div>
           </div>
-          <div className="xl:w-[80%] sm:w-[85%] xs:w-[90%] mx-auto flex md:flex-row xs:flex-col lg:gap-4 xs:gap-2 justify-center lg:items-stretch md:items-center mt-8 mb-8">
-            <div className="md:hidden sm:block xs:block xs:w-full">
+          <div className="xl:w-[80%] md:w-[85%] mx-auto flex flex-col md:flex-row-reverse lg:gap-4 xs:gap-2 justify-center lg:items-stretch md:items-center mt-8 mb-8">
+            <div className="w-full md:w-[50%]">
               <Image
                 className="lg:rounded-t-lg sm:rounded-sm xs:rounded-sm"
-                src="/img/Node-React-Social-Media.png"
+                src="/img/Node-React-Social-Media.webp"
                 alt="ReactJS Ecommerce Project"
                 width={500}
                 height={500}
               />
             </div>
-            <div className="lg:w-[50%] xs:w-full bg-gray-100 dark:bg-gray-900 dark:text-gray-400 md:p-4 xs:p-0 rounded-md">
+            <div className="lg:w-[50%] xs:w-full bg-gray-100 dark:bg-gray-900 dark:text-gray-400 px-2 py-4 md:p-4 rounded-md">
               <h2 className="text-3xl font-semibold text-gray-900 dark:text-white">
                 Gammers Social Media
               </h2>
@@ -128,42 +119,33 @@ export default function Projects() {
                 content sharing, swipe like, groups, chats, communities etc
               </p>
             </div>
-            <div className="md:block sm:hidden xs:hidden lg:w-[50%] xs:w-full">
-              <Image
-                className="lg:rounded-t-lg xs:rounded-sm"
-                src="/img/Node-React-Social-Media.png"
-                alt="Online teaching classes"
-                width={500}
-                height={500}
-              />
-            </div>
           </div>
-          <div className="xl:w-[80%] sm:w-[85%] xs:w-[90%] mx-auto flex md:flex-row xs:flex-col lg:gap-4 xs:gap-2 justify-center lg:items-stretch md:items-center mt-8 mb-8">
-            <div className="lg:w-[50%] xs:w-full">
+          <div className="xl:w-[80%] md:w-[85%] mx-auto flex flex-col md:flex-row lg:gap-4 xs:gap-2 justify-center lg:items-stretch md:items-center mt-8 mb-8">
+            <div className="w-full md:w-[50%]">
               <Image
-                src={"/img/WebRTC - Meetings.png"}
+                src={"/img/WebRTC - Meetings.webp"}
                 className="lg:rounded-t-lg sm:rounded-sm xs:rounded-sm"
                 alt="Video confrencing project"
                 width={500}
                 height={500}
               />
             </div>
-            <div className="lg:w-[50%] sm:w-full xs:w-full bg-gray-100 dark:bg-gray-900 dark:text-gray-400 md:p-4 xs:p-0 rounded-md">
+            <div className="lg:w-[50%] sm:w-full xs:w-full bg-gray-100 dark:bg-gray-900 dark:text-gray-400 px-2 py-4 md:p-4 rounded-md">
               <h2 className="text-3xl font-semibold text-gray-900 dark:text-white">
-                Ecommerce
+                WebRtc - Zoom/Meet alternative
               </h2>
               <p className="text-md mt-4">
-                Ecommerce plateform Development using NextJS, NodeJs, ReactJS,
-                TypeScript, MongoDB, RazorPAY payment and Admin Panel to add or
-                update the listed products. Features includes like products,
-                variants, pages & categories, review, order, cart, upsell,
-                profile, order tracking and cancellation. Implemented caching
-                using redis db for most visited products and pages.
+                WebRtc Based video confrencing web application including
+                features like Webinar, liveStreaming, Recording, Scalling using
+                cluster, Including authentication and authorization control and
+                branding whitelabeling. It is using Webrtc, Socket.io,
+                multi-forward unit, Mediasoup, redis, NodeJs, Meteor, ReactJS,
+                Typescript, MongoDB, MySQL, Ruby On Rails technology stacks.
               </p>
             </div>
           </div>
-          <div className="xl:w-[80%] sm:w-[85%] xs:w-[90%] mx-auto flex md:flex-row xs:flex-col lg:gap-4 xs:gap-2 justify-center lg:items-stretch md:items-center mt-8 mb-8">
-            <div className="md:hidden sm:block xs:block xs:w-full">
+          <div className="xl:w-[80%] md:w-[85%] mx-auto flex flex-col md:flex-row-reverse lg:gap-4 xs:gap-2 justify-center lg:items-stretch md:items-center mt-8 mb-8">
+            <div className="w-full md:w-[50%]">
               <Image
                 className="lg:rounded-t-lg sm:rounded-sm xs:rounded-sm"
                 src="/img/topical.webp"
@@ -172,28 +154,19 @@ export default function Projects() {
                 height={500}
               />
             </div>
-            <div className="lg:w-[50%] xs:w-full bg-gray-100 dark:bg-gray-900 dark:text-gray-400 md:p-4 xs:p-0 rounded-md">
+            <div className="lg:w-[50%] xs:w-full bg-gray-100 dark:bg-gray-900 dark:text-gray-400 px-2 py-4 md:p-4 rounded-md">
               <h2 className="text-3xl font-semibold text-gray-900 dark:text-white">
-                Gammers Social Media
+                Topical Map
               </h2>
 
               <p className="text-md mt-4">
-                Being the co-founder of social media i have worked on every
-                aspect of the project including project architecture, Marketing,
-                Privacy Policy, Security and UI/UX consideration. It uses
-                NodeJS, ReactJS, JavaScript, BootStrap, MongoDB, MySQL, Redis,
-                Socket.io and Git etc. Features include freinds, following,
-                content sharing, swipe like, groups, chats, communities etc
+                Topical Map is a web application to generate the topical map of
+                internal linking for a pillar content including seo matrices,
+                keywords, outer links and pagelink data. It is developed using
+                NodeJS, NextJS, ReactJS, JavaScript, TypeScript, MongoDB, Redis,
+                Socket.io, Beautifulsoup. We have used Beautifulsoup for website
+                scrap and crawling for generating the whole topical map.
               </p>
-            </div>
-            <div className="md:block sm:hidden xs:hidden lg:w-[50%] xs:w-full">
-              <Image
-                className="lg:rounded-t-lg xs:rounded-sm"
-                src="/img/topical.webp"
-                alt="Online teaching classes"
-                width={500}
-                height={500}
-              />
             </div>
           </div>
         </Box>

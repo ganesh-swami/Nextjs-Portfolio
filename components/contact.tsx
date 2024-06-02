@@ -29,8 +29,8 @@ export default function Contact() {
                 Contact Us
               </h1>
               <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-                Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical
-                gentrify.
+                If you have any questions or project in mind. Feel free to
+                discuss
               </p>
             </div>
             <div className="lg:w-1/2 md:w-2/3 mx-auto">
@@ -96,7 +96,10 @@ export default function Contact() {
                         height={24}
                       />
                     </a>
-                    <a className="ml-4 text-gray-500">
+                    <a
+                      href="https://www.linkedin.com/in/ganesh-swami/"
+                      className="ml-4 text-gray-500"
+                    >
                       <Image
                         src={"Linkedin.svg"}
                         alt={"Linkedin Profile"}
@@ -105,24 +108,23 @@ export default function Contact() {
                         height={24}
                       />
                     </a>
-                    <a className="ml-4 text-gray-500"></a>
                   </span>
                 </div>
               </div>
             </div>
           </div>
           <div className="container px-1 py-24 mx-auto">
-            <div className="p-2 flex w-full pt-8 mt-8 text-center">
+            <div className="p-2 w-full pt-8 mt-8 text-center justify-center">
               Made With {"  "}
               <Image
                 src={"faceheart.svg"}
                 alt={"Made with love"}
-                className="pl-1"
-                width={16}
-                height={16}
+                className="pl-1 inline-flex"
+                width={18}
+                height={18}
               />
               {"   "}, Developed and maintained by me at {"  "}
-              <a href="https://avinyaweb.com" className="text-blue pl-1">
+              <a href="https://avinyaweb.com" className="text-indigo-500 pl-1">
                 avinyaweb
               </a>
             </div>
