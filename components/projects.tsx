@@ -25,7 +25,7 @@ export default function Projects() {
           <div className="xl:w-[80%] md:w-[85%] mx-auto flex flex-col md:flex-row lg:gap-4 xs:gap-2 justify-center lg:items-stretch md:items-center mt-8 mb-8">
             <div className="w-full md:w-[50%]">
               <Image
-                src={"/img/Video-Confrencing-WebRTC.png"}
+                src={"/img/Video-Confrencing-WebRTC.svg"}
                 className="w-full rounded-sm lg:rounded-t-lg"
                 alt="Video confrencing project"
                 width={500}
