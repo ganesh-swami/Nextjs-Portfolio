@@ -41,8 +41,8 @@ export default function Projects() {
                 Audio, Video, Polls, LiveStreaming, Whiteboard, Breakout Room,
                 RealTime Chat, different layout. I have worked on WebRtc Related
                 audio and video streaming and authentication & authorization,
-                Kurento and mediasoup integration, Optimization to handle 2x
-                users with same resources.
+                Kurento & mediasoup integration, Optimization to handle 2x users
+                with same resources.
               </p>
             </div>
           </div>
