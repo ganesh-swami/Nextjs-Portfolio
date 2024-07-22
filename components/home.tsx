@@ -5,6 +5,7 @@ import styles from "../app/page.module.css";
 import Image from "next/image";
 import MouseIcon from "@mui/icons-material/Mouse";
 import Button from "@mui/material/Button";
+import { motion } from "framer-motion";
 
 export default function Home() {
   const handleScroll = () => {
@@ -36,7 +37,11 @@ export default function Home() {
         </svg>
         <div className="w-svw h-svh pt-12 pb-12 flex items-center justify-center">
           <div className="max-w-screen-xl w-full flex flex-col-reverse md:flex-row z-10 relative content-center justify-around">
-            <div className="text-center flex flex-col items-center justify-center">
+            <motion.div 
+            initial={{ scale: 0,rotate: "0deg", }}
+            animate={{ scale: 1,rotate: ["180deg","0deg"], }}
+            transition={{ duration: 1.5, delay: 0.5 }}
+            className="text-center flex flex-col items-center justify-center">
               <h1 className="text-white text-4xl mb-6 z-10 relative h1-tag">
                 I`m Ganesh
               </h1>
@@ -58,17 +63,22 @@ export default function Home() {
                 />
               </h2>
 
-              <Button
-                variant="contained"
-                color="secondary"
-                endIcon={<MouseIcon />}
-                className="mt-12 md:mt-6 flex items-center gap-1 hover:gap-3 rounded-full bg-gradient-to-r from-pink-500 to-violet-600 px-3 md:px-8 py-3 md:py-4 text-center text-xs md:text-sm font-medium uppercase tracking-wider text-white transition-all duration-200 ease-out hover:text-white md:font-semibold invisible md:visible"
+              <motion.button
+                className="mt-12 md:mt-6 flex items-center gap-1 hover:gap-3 rounded-full bg-gradient-to-r from-pink-500 to-violet-900 px-3 md:px-8 py-3 md:py-4 text-center text-xs md:text-sm font-medium uppercase tracking-wider text-white transition-all duration-200 ease-out hover:text-white md:font-semibold invisible md:visible"
                 onClick={handleScroll}
+                whileHover={{
+                  scale: 1.125,
+                  transition: { duration: 0.15 },
+                  y: 10,
+                }}
               >
-                Scroll Down
-              </Button>
-            </div>
-            <div className="flex items-center justify-center">
+                Scroll Down <MouseIcon />
+              </motion.button>
+            </motion.div>
+            <motion.div 
+          initial={{ x: 200, }}
+          transition={{ duration: 0.75, delay: 0.05, ease: "easeInOut" }}
+          whileInView={{x: 0}} className="flex items-center justify-center">
               <Image
                 src="/img/ganesh-ai-image.webp"
                 alt="Ganesh Swami web developer"
@@ -76,7 +86,7 @@ export default function Home() {
                 width={300}
                 height={300}
               />
-            </div>
+            </motion.div>
           </div>
         </div>
       </div>

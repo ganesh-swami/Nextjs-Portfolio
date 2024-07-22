@@ -1,16 +1,18 @@
+"use client";
+
 import Grid from "@mui/material/Grid";
 import { Box, Stack } from "@mui/system";
 import AssignmentIndIcon from "@mui/icons-material/AssignmentInd";
 import WorkHistoryIcon from "@mui/icons-material/WorkHistory";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 import WorkOutlineIcon from "@mui/icons-material/WorkOutline";
+import { motion } from "framer-motion";
 import styles from "../app/page.module.css";
 
 export default function AboutMe() {
   return (
     <Grid
       container
-      xs={12}
       id="skill"
       className={styles.aboutmeBack + " justify-center pt-4 pb-20"}
     >
@@ -31,7 +33,11 @@ export default function AboutMe() {
           </Box>
         </Stack>
         <Box className="my-4 flex flex-col sm:flex-row gap-4 items-center">
-          <Box className="w-full md:w-6/12">
+          <motion.div 
+          initial={{ x: -200, }}
+          transition={{ duration: 0.75, delay: 0.05, ease: "easeInOut" }}
+          whileInView={{x: 0}}
+          className="w-full md:w-6/12">
             <p className="text-slate-300 p-tag">
               <strong className="text-slate-100">Full stack</strong> web
               developer with 8+ years of experience With a passion for creating{" "}
@@ -55,8 +61,12 @@ export default function AboutMe() {
               <strong className="text-slate-100">clean, reusalbe </strong> and
               performance optimized code.
             </p>
-          </Box>
-          <Box className="w-full md:w-6/12 flex flex-col md:flex-row justify-around">
+          </motion.div>
+          <motion.div 
+          initial={{ x: 200, }}
+          transition={{ duration: 0.75, delay: 0.05, ease: "easeInOut" }}
+          whileInView={{x: 0}}
+          className="w-full md:w-6/12 flex flex-col md:flex-row justify-around">
             <Box>
               <Stack className="flex mx-2 mb-6">
                 <h3 className="left-heading-sm">
@@ -85,7 +95,7 @@ export default function AboutMe() {
                 <p className="ml-3 text-slate-300">Available</p>
               </Stack>
             </Box>
-          </Box>
+          </motion.div>
         </Box>
       </Grid>
     </Grid>

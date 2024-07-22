@@ -1,11 +1,14 @@
+"use client";
+
 import Grid from "@mui/material/Grid";
 import { Box, Stack } from "@mui/system";
 import Image from "next/image";
+import {motion} from "framer-motion";
 
 export default function Contact() {
   const year = new Date().getFullYear();
   return (
-    <Grid container xs={12} id="skill" className="justify-center pt-4 pb-20">
+    <Grid container id="skill" className="justify-center pt-4 pb-20">
       <Grid className="max-w-screen-xl w-full justify-start px-3">
         <Stack
           direction="row"
@@ -22,7 +25,11 @@ export default function Contact() {
             </Box>
           </Box>
         </Stack>
-        <div className="text-gray-600 body-font relative">
+        <motion.div 
+          initial={{ x: 200 }}
+          transition={{ duration: 0.75, delay: 0.05, ease: "easeInOut" }}
+          whileInView={{ x: 0 }}
+        className="text-gray-600 body-font relative">
           <div className="container px-5 py-24 mx-auto">
             <div className="flex flex-col text-center w-full mb-12">
               <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">
@@ -81,7 +88,7 @@ export default function Contact() {
                   </button>
                 </div>
                 <div className="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
-                  <a className="text-indigo-500">info@avinyaweb.com</a>
+                  {/* <a className="text-indigo-500">info@avinyaweb.com</a> */}
                   <br></br>
                   <span className="inline-flex mt-2">
                     <a
@@ -96,7 +103,7 @@ export default function Contact() {
                         height={24}
                       />
                     </a>
-                    <a
+                    {/* <a
                       href="https://www.linkedin.com/in/ganesh-swami/"
                       className="ml-4 text-gray-500"
                     >
@@ -107,7 +114,7 @@ export default function Contact() {
                         width={24}
                         height={24}
                       />
-                    </a>
+                    </a> */}
                   </span>
                 </div>
               </div>
@@ -129,7 +136,7 @@ export default function Contact() {
               </a>
             </div>
           </div>
-        </div>
+        </motion.div>
       </Grid>
     </Grid>
   );

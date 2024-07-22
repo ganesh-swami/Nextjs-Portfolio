@@ -158,6 +158,15 @@ a {
   content: "</p>";
 }
 
+.progressbr {
+  position: fixed;
+  left: 0;
+  right: 0;
+  height: 12px;
+  background: linear-gradient(to right, #ec4899 , #4c1d95);;
+  bottom: 0;
+}
+
 
 
 .p-color{
