@@ -1,10 +1,13 @@
+"use client";
+
 import Grid from "@mui/material/Grid";
 import { Box, Stack } from "@mui/system";
 import Image from "next/image";
+import { motion } from "framer-motion";
 
 export default function Projects() {
   return (
-    <Grid container xs={12} id="skill" className="justify-center pt-4 pb-20">
+    <Grid container id="skill" className="justify-center pt-4 pb-20">
       <Grid className="max-w-screen-xl w-full justify-start px-3">
         <Stack
           direction="row"
@@ -23,7 +26,12 @@ export default function Projects() {
         </Stack>
         <Box className="w-full mx-auto">
           <div className="xl:w-[80%] md:w-[85%] mx-auto flex flex-col md:flex-row lg:gap-4 xs:gap-2 justify-center lg:items-stretch md:items-center mt-8 mb-8">
-            <div className="w-full md:w-[50%]">
+            <motion.div
+              initial={{ x: -200 }}
+              transition={{ duration: 0.75, delay: 0.05, ease: "easeInOut" }}
+              whileInView={{ x: 0 }}
+              className="w-full md:w-[50%]"
+            >
               <Image
                 src={"/img/Video-Confrencing-WebRTC.webp"}
                 className="w-full rounded-sm lg:rounded-t-lg"
@@ -31,8 +39,13 @@ export default function Projects() {
                 width={500}
                 height={350}
               />
-            </div>
-            <div className="w-full md:w-[50%] bg-gray-100 dark:bg-gray-900 dark:text-gray-400 px-2 py-4 md:p-4 rounded-md">
+            </motion.div>
+            <motion.div
+              initial={{ x: 200 }}
+              transition={{ duration: 0.75, delay: 0.05, ease: "easeInOut" }}
+              whileInView={{ x: 0 }}
+              className="w-full md:w-[50%] bg-gray-100 dark:bg-gray-900 dark:text-gray-400 px-2 py-4 md:p-4 rounded-md"
+            >
               <h2 className="text-3xl font-semibold text-gray-900 dark:text-white">
                 Video Confrencing
               </h2>
@@ -44,10 +57,16 @@ export default function Projects() {
                 Kurento & mediasoup integration, Optimization to handle 2x users
                 with same resources.
               </p>
-            </div>
+            </motion.div>
           </div>
+
           <div className="xl:w-[80%] md:w-[85%] mx-auto flex flex-col md:flex-row-reverse lg:gap-4 xs:gap-2 justify-center lg:items-stretch md:items-center mt-8 mb-8">
-            <div className="w-full md:w-[50%]">
+            <motion.div
+              initial={{ x: -200 }}
+              transition={{ duration: 0.75, delay: 0.05, ease: "easeInOut" }}
+              whileInView={{ x: 0 }}
+              className="w-full md:w-[50%]"
+            >
               <Image
                 className="lg:rounded-t-lg sm:rounded-sm xs:rounded-sm"
                 src="/img/online-classes-min.webp"
@@ -55,8 +74,13 @@ export default function Projects() {
                 width={500}
                 height={500}
               />
-            </div>
-            <div className="w-full md:w-[50%] bg-gray-100 dark:bg-gray-900 dark:text-gray-400 px-2 py-4 md:p-4 rounded-md">
+            </motion.div>
+            <motion.div
+              initial={{ x: 200 }}
+              transition={{ duration: 0.75, delay: 0.05, ease: "easeInOut" }}
+              whileInView={{ x: 0 }}
+              className="w-full md:w-[50%] bg-gray-100 dark:bg-gray-900 dark:text-gray-400 px-2 py-4 md:p-4 rounded-md"
+            >
               <h2 className="text-3xl font-semibold text-gray-900 dark:text-white">
                 Virtual Teaching
               </h2>
@@ -69,10 +93,16 @@ export default function Projects() {
                 screensharing, audio, Video, WhiteBoard, Polls, Que & Ans and
                 some other student interection features.
               </p>
-            </div>
+            </motion.div>
           </div>
+
           <div className="xl:w-[80%] md:w-[85%] mx-auto flex flex-col md:flex-row lg:gap-4 xs:gap-2 justify-center lg:items-stretch md:items-center mt-8 mb-8">
-            <div className="w-full md:w-[50%]">
+            <motion.div
+              initial={{ x: -200 }}
+              transition={{ duration: 0.75, delay: 0.05, ease: "easeInOut" }}
+              whileInView={{ x: 0 }}
+              className="w-full md:w-[50%]"
+            >
               <Image
                 src={"/img/ecommerce-ReactJS.webp"}
                 className="lg:rounded-t-lg sm:rounded-sm xs:rounded-sm"
@@ -80,8 +110,13 @@ export default function Projects() {
                 width={500}
                 height={500}
               />
-            </div>
-            <div className="lg:w-[50%] sm:w-full xs:w-full bg-gray-100 dark:bg-gray-900 dark:text-gray-400 px-2 py-4 md:p-4 rounded-md">
+            </motion.div>
+            <motion.div
+              initial={{ x: 200 }}
+              transition={{ duration: 0.75, delay: 0.05, ease: "easeInOut" }}
+              whileInView={{ x: 0 }}
+              className="lg:w-[50%] sm:w-full xs:w-full bg-gray-100 dark:bg-gray-900 dark:text-gray-400 px-2 py-4 md:p-4 rounded-md"
+            >
               <h2 className="text-3xl font-semibold text-gray-900 dark:text-white">
                 Ecommerce
               </h2>
@@ -93,10 +128,15 @@ export default function Projects() {
                 profile, order tracking and cancellation. Implemented caching
                 using redis db for most visited products and pages.
               </p>
-            </div>
+            </motion.div>
           </div>
           <div className="xl:w-[80%] md:w-[85%] mx-auto flex flex-col md:flex-row-reverse lg:gap-4 xs:gap-2 justify-center lg:items-stretch md:items-center mt-8 mb-8">
-            <div className="w-full md:w-[50%]">
+            <motion.div
+              initial={{ x: -200 }}
+              transition={{ duration: 0.75, delay: 0.05, ease: "easeInOut" }}
+              whileInView={{ x: 0 }}
+              className="w-full md:w-[50%]"
+            >
               <Image
                 className="lg:rounded-t-lg sm:rounded-sm xs:rounded-sm"
                 src="/img/Node-React-Social-Media.webp"
@@ -104,8 +144,13 @@ export default function Projects() {
                 width={500}
                 height={500}
               />
-            </div>
-            <div className="lg:w-[50%] xs:w-full bg-gray-100 dark:bg-gray-900 dark:text-gray-400 px-2 py-4 md:p-4 rounded-md">
+            </motion.div>
+            <motion.div
+              initial={{ x: 200 }}
+              transition={{ duration: 0.75, delay: 0.05, ease: "easeInOut" }}
+              whileInView={{ x: 0 }}
+              className="lg:w-[50%] xs:w-full bg-gray-100 dark:bg-gray-900 dark:text-gray-400 px-2 py-4 md:p-4 rounded-md"
+            >
               <h2 className="text-3xl font-semibold text-gray-900 dark:text-white">
                 Gammers Social Media
               </h2>
@@ -118,10 +163,15 @@ export default function Projects() {
                 Socket.io and Git etc. Features include freinds, following,
                 content sharing, swipe like, groups, chats, communities etc
               </p>
-            </div>
+            </motion.div>
           </div>
           <div className="xl:w-[80%] md:w-[85%] mx-auto flex flex-col md:flex-row lg:gap-4 xs:gap-2 justify-center lg:items-stretch md:items-center mt-8 mb-8">
-            <div className="w-full md:w-[50%]">
+            <motion.div
+              initial={{ x: -200 }}
+              transition={{ duration: 0.75, delay: 0.05, ease: "easeInOut" }}
+              whileInView={{ x: 0 }}
+              className="w-full md:w-[50%]"
+            >
               <Image
                 src={"/img/WebRTC - Meetings.webp"}
                 className="lg:rounded-t-lg sm:rounded-sm xs:rounded-sm"
@@ -129,8 +179,13 @@ export default function Projects() {
                 width={500}
                 height={500}
               />
-            </div>
-            <div className="lg:w-[50%] sm:w-full xs:w-full bg-gray-100 dark:bg-gray-900 dark:text-gray-400 px-2 py-4 md:p-4 rounded-md">
+            </motion.div>
+            <motion.div
+              initial={{ x: 200 }}
+              transition={{ duration: 0.75, delay: 0.05, ease: "easeInOut" }}
+              whileInView={{ x: 0 }}
+              className="lg:w-[50%] sm:w-full xs:w-full bg-gray-100 dark:bg-gray-900 dark:text-gray-400 px-2 py-4 md:p-4 rounded-md"
+            >
               <h2 className="text-3xl font-semibold text-gray-900 dark:text-white">
                 WebRtc - Zoom/Meet alternative
               </h2>
@@ -142,10 +197,15 @@ export default function Projects() {
                 multi-forward unit, Mediasoup, redis, NodeJs, Meteor, ReactJS,
                 Typescript, MongoDB, MySQL, Ruby On Rails technology stacks.
               </p>
-            </div>
+            </motion.div>
           </div>
           <div className="xl:w-[80%] md:w-[85%] mx-auto flex flex-col md:flex-row-reverse lg:gap-4 xs:gap-2 justify-center lg:items-stretch md:items-center mt-8 mb-8">
-            <div className="w-full md:w-[50%]">
+            <motion.div
+              initial={{ x: -200 }}
+              transition={{ duration: 0.75, delay: 0.05, ease: "easeInOut" }}
+              whileInView={{ x: 0 }}
+              className="w-full md:w-[50%]"
+            >
               <Image
                 className="lg:rounded-t-lg sm:rounded-sm xs:rounded-sm"
                 src="/img/topical.webp"
@@ -153,8 +213,13 @@ export default function Projects() {
                 width={500}
                 height={500}
               />
-            </div>
-            <div className="lg:w-[50%] xs:w-full bg-gray-100 dark:bg-gray-900 dark:text-gray-400 px-2 py-4 md:p-4 rounded-md">
+            </motion.div>
+            <motion.div
+              initial={{ x: 200 }}
+              transition={{ duration: 0.75, delay: 0.05, ease: "easeInOut" }}
+              whileInView={{ x: 0 }}
+              className="lg:w-[50%] xs:w-full bg-gray-100 dark:bg-gray-900 dark:text-gray-400 px-2 py-4 md:p-4 rounded-md"
+            >
               <h2 className="text-3xl font-semibold text-gray-900 dark:text-white">
                 Topical Map
               </h2>
@@ -167,7 +232,7 @@ export default function Projects() {
                 Socket.io, Beautifulsoup. We have used Beautifulsoup for website
                 scrap and crawling for generating the whole topical map.
               </p>
-            </div>
+            </motion.div>
           </div>
         </Box>
       </Grid>

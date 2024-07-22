@@ -1,5 +1,7 @@
-import { Box } from "@mui/system";
+"use client";
+
 import Image from "next/image";
+import { motion } from "framer-motion";
 
 export default function Skill({
   tech,
@@ -7,7 +9,11 @@ export default function Skill({
   tech: string;
 }>) {
   return (
-    <Box className="borderTechBox">
+
+    <motion.div 
+    whileHover={{ rotate: "180deg" }}
+    transition={{ duration: 0.5 }}
+    className="borderTechBox">
       <Image
         src={tech + ".svg"}
         alt={tech}
@@ -16,6 +22,6 @@ export default function Skill({
         height={32}
       />
       <p className="text-xs md:text-sm p-color pt-1">{tech}</p>
-    </Box>
+    </motion.div>
   );
 }
